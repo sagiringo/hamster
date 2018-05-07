@@ -40,6 +40,9 @@
             <div class="content">
                 <div class="title">ららららららべる</div>
             </div>
+            <div>
+                yield('content')
+            </div>
         </div>
     </body>
 </html>
