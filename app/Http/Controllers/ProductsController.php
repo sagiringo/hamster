@@ -8,7 +8,8 @@ use App\Http\Requests;
 
 class ProductsController extends Controller
 {
-  public index(){
-    view("lflfkfkflkff");
-  }
+    public function index()
+    {
+      return view('products.index');
+    }
 }
