@@ -18,8 +18,4 @@ Route::group(['middleware' => ['web']], function(){
   Route::get('/products/search','ProductsController@search');
   Route::get('/products/{id}/reviews/create','ReviewsController@create');
   Route::post('/products/{id}/reviews','ReviewsController@store');
-  //Route::resource('/products','ProductsController');
-  Route::get('/', function () {
-    return view('welcome');
-
 });
